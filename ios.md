@@ -541,7 +541,7 @@ An `AnimationImageProvider` that provides images by name from a specific local f
 
 ```swift
 /// Create a bundle that loads images from a local URL filepath.
-let imageProvider = AnimationImageProvider(filepath: url)
+let imageProvider = FilepathImageProvider(filepath: url)
 /// Set the provider on an animation.
 animationView.imageProvider = imageProvider
 ```
